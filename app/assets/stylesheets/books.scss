@@ -1,0 +1,91 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.t-a:hover,.l-a:hover,.s-a:hover,.e-a:hover{
+  color:white;
+  background-color:black;
+}
+
+/*以下top*/
+
+.l-a,.e-a,.s-a,{
+    color : inherit;
+}
+
+.head{
+  margin:33px;
+}
+
+.text{
+  font-size:13px;
+  line-height:18px;
+  margin:33px;
+}
+
+/*ここまでtop */ /*以下index */
+
+.box{
+  font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+
+tr{
+  display:table-row;
+  padding-bottom:5px;
+  text-align: center;
+}
+
+th{
+  display:table-cell;
+  vertical-align:inherit;
+  font-weight: bold;
+  text-align: -internal-center;
+}
+td{
+  display:table-cell;
+  vertical-align:inherit;
+  font-size:13px;
+  line-height:18px;
+  margin:33px;
+  padding:0px 7px 5px 5px;
+}
+
+
+.form{
+  flex-direction:column;
+  padding-top:10px;
+}
+
+h4{
+  padding-top:10px;
+}
+
+/*以下show*/
+
+.s-p, .s-box{
+  font-size:13px;
+  line-height:18px;
+  margin:32px;
+}
+
+/*以下edit*/
+
+.e-box{
+  font-size:13px;
+  line-height:18px;
+  margin: 33px;
+}
+
+.e-text,.e-submit,.e-a{
+  margin-top:10px;
+}
+
+.e-submit{
+  margin-bottom:10px;
+}

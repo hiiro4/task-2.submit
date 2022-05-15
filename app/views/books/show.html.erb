@@ -1,0 +1,16 @@
+<div class="s-box">
+    <%=notice %>
+<p class="s-p">
+    <strong>Title:</strong>
+    <%=@book.title %></p>
+
+<P class="s-p">
+    <strong>Body:</strong>
+    <%=@book.body %></P>
+
+
+<%=link_to "Edit",edit_book_path(@book),class: "s-a" %>
+|
+<%=link_to"Back","/books",class: "s-a"%>
+
+</div>
